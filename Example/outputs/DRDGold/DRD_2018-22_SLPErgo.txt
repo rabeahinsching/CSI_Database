@@ -1,0 +1,67 @@
+{
+  "company": "DRD",
+  "report_year": "2018-22",
+  "report_type": "SLPErgo",
+  "projects": [
+    {
+      "project_name": "Broad-Based Livelihoods Programme, East Rand",
+      "subprojects": "BBL Horticulture component, East Rand; Learning Groups with hands-on learning sessions, East Rand; Support networks (peer to peer support groups / circles of friends / network circles), East Rand; Ongoing monitoring and mentoring of participants, East Rand",
+      "description": "A poverty alleviation programme that delivers a person or household the opportunity to maximise participation in the economy by providing access to food security, income generation, and business skills. Includes horticulture for household nutrition, learning groups, support networks, and ongoing mentoring.",
+      "mine": "ERGO",
+      "partners": "",
+      "stage": "Operating.Operating.Operating.Operating",
+      "years": "2018,2019,2020,2021,2022",
+      "project_value_company": "1800000, ZAR, invested together with Project 2 & 3 (2018); 1400000, ZAR, invested together with Project 2 & 3 (2019); 1400000, ZAR, invested together with Project 2 & 3 (2020); 1400000, ZAR, invested together with Project 2 & 3 (2021); 1000000, ZAR, invested together with Project 2 & 3 (2022)",
+      "project_value_partners": "",
+      "category": "Alternative Livelihood/Employment Programmes.Alternative Livelihood/Employment Programmes.Alternative Livelihood/Employment Programmes.Alternative Livelihood/Employment Programmes",
+      "location": ", , Ekurhuleni, East Rand. , , , East Rand",
+      "location_accuracy": "Municipality.District/Province/Region",
+      "pages": "73,74,75,81,82,83"
+    },
+    {
+      "project_name": "Entrepreneurship Programme, East Rand",
+      "subprojects": "Entrepreneurship Development workshops, East Rand; Support networks (peer to peer support groups, business network circles), East Rand; Ongoing monitoring and mentoring of participants, East Rand",
+      "description": "A programme to encourage and strengthen multitudes of informal and formal businesses through training, workshops, business tools, and support networks, aiming to improve profitability and sustainability of small businesses.",
+      "mine": "ERGO",
+      "partners": "",
+      "stage": "Operating.Operating.Operating",
+      "years": "2018,2019,2020,2021,2022",
+      "project_value_company": "1600000, ZAR, invested together with Project 1 & 3 (2018); 1400000, ZAR, invested together with Project 1 & 3 (2019); 1200000, ZAR, invested together with Project 1 & 3 (2020); 1000000, ZAR, invested together with Project 1 & 3 (2021); 500000, ZAR, invested together with Project 1 & 3 (2022)",
+      "project_value_partners": "",
+      "category": "Business Hubs.Business Hubs.Business Hubs",
+      "location": ", , Ekurhuleni, East Rand. , , , East Rand",
+      "location_accuracy": "Municipality.District/Province/Region",
+      "pages": "84,85,86"
+    },
+    {
+      "project_name": "COJ Broad-Based Personal and Career Development Programme, City of Johannesburg, Region D, F",
+      "subprojects": "Personal and Career Development workshops, City of Johannesburg, Region D, F; Support network establishment (peer to peer support groups, network circles), City of Johannesburg, Region D, F; Ongoing monitoring and mentoring of participants, City of Johannesburg, Region D, F",
+      "description": "A programme to support youth and unemployed young adults in personal and career development, including workshops, career planning, and support networks to improve employability and life skills.",
+      "mine": "ERGO",
+      "partners": "",
+      "stage": "Operating.Operating.Operating",
+      "years": "2018,2019,2020,2021,2022",
+      "project_value_company": "1800000, ZAR, invested together with Project 1 & 2 (2018); 1400000, ZAR, invested together with Project 1 & 2 (2019); 1400000, ZAR, invested together with Project 1 & 2 (2020); 1400000, ZAR, invested together with Project 1 & 2 (2021); 1000000, ZAR, invested together with Project 1 & 2 (2022)",
+      "project_value_partners": "",
+      "category": "Community Training: Post-School.Community Training: Post-School.Community Training: Post-School",
+      "location": ", , City of Johannesburg, Region D. , , City of Johannesburg, Region F",
+      "location_accuracy": "Municipality.Municipality",
+      "pages": "78,79,80"
+    },
+    {
+      "project_name": "Infrastructure investment for ERGO communities, East Rand",
+      "subprojects": "",
+      "description": "Provision of equipment or a building construction/upgrade, as needed by a local school or clinic within the ERGO communities, in close cooperation with the Ekurhuleni Municipality.",
+      "mine": "ERGO",
+      "partners": "Ekurhuleni Municipality",
+      "stage": "Planned",
+      "years": "2018,2019,2020,2021,2022",
+      "project_value_company": "3000000, ZAR, projected (2018)",
+      "project_value_partners": "",
+      "category": "Infrastructure: Education",
+      "location": ", , Ekurhuleni, East Rand",
+      "location_accuracy": "Municipality",
+      "pages": "87"
+    }
+  ]
+}

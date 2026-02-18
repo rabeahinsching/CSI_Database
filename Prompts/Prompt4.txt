@@ -1,0 +1,66 @@
+Prompt 4 - Identifying Duplicates
+
+Below is the fourth prompt, used to identify duplicate projects in the extracted data. 
+
+System Message:
+
+You are a diligent research assistant, specialised in identifying duplicate information in datasets.
+
+User Message: 
+
+# General Processing Instruction
+
+The JSON scheme that you will put out is too large to be returned in one output message. Therefore, please return the result in parts. At the end of each part, include '[CONTINUE]' unless this was the last chunk of output. 
+
+After you're done, check that no project in the input file was skipped.
+
+Please find the task and input text below
+
+# Task Overview
+
+You will be presented with a json schema that contains data on different projects run by different mining companies in South Africa. It will be your task to identify duplicate of these projects, i.e. projects that are listed twice or more. Do not change the order of projects in the file. Consider the exact task and definition of a duplicate below.
+
+# Task Breakdown
+
+Do the following tasks in exactly this order:
+
+First: for each project, create two new fields: "project_id" and "duplicate", and set "duplicate" to the default "No".
+
+Second: run through the file project by project and give each project a unique "project_id", consisting of: the first three letters of the company that runs it + the report year + a number you can choose yourself (e.g. start with 1).
+
+Third: run through the file again. If you encounter a project that was already listed before, do the following:
+a) Change the "duplicate" field from "No" to "Yes". mportant: Change the existing field. Do not create a new field. 
+b) Replace the "project_id" you populated in the previous step with the value of "project_id" of the original project. Important: Change the existing field. Do not create a new field. 
+
+# Definition of a duplicate
+
+A project is a duplicate if the same project has been mentioned in an earlier entry already. This does not mean that two projects have the exact same values or the same information across all fields. Instead, infer whether a project was listed twice based on the core identifying variables: name and description and location. If the name and description sound similar, flag it. If you are unsure if it is a duplicate: flag it anyway. 
+
+# Output Format
+
+Provide the output exactly as specified below. Do not add any explanatory comments, or anything to indicate it is a json scheme.
+
+{
+  "company": "",
+  "report_year": "",
+"report_type": "",
+  "projects": [
+    {
+      "project_id": "",
+      "duplicate": false,
+      "project_name": "",
+      "subprojects": "",
+      "description": "",
+      "mine": "",
+      "partners": "",
+      "stage": "",
+      "years": "",
+      "project_value_company": "",
+      "project_value_partners": "",
+      "category": "",
+      "location": "",
+      "location_accuracy": "",
+      "pages": ""
+    }
+  ]
+}

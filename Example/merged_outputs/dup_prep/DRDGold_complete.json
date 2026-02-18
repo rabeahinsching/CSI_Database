@@ -1,0 +1,305 @@
+[
+  {
+    "company": "DRD",
+    "report_year": "2011",
+    "report_type": "IR",
+    "projects": [
+      {
+        "project_name": "Learnerships in engineering, motor mechanics, new venture creation and construction skills, Ekurhuleni",
+        "description": "EBDA offers learnerships for corporate sponsored employees in engineering, motor mechanics, new venture creation and construction skills.",
+        "location": ", Ekurhuleni, , "
+      },
+      {
+        "project_name": "Short courses and skills programmes in metallurgy and minerals processing, engineering and adult basic education, Ekurhuleni",
+        "description": "EBDA offers short courses and skills programmes in metallurgy and minerals processing, engineering and adult basic education.",
+        "location": ", Ekurhuleni, , "
+      },
+      {
+        "project_name": "Short courses in computer skills, operator training and licensing, and health and safety, Ekurhuleni",
+        "description": "EBDA offers short courses in computer skills, operator training and licensing, and health and safety.",
+        "location": ", Ekurhuleni, , "
+      },
+      {
+        "project_name": "Assistance to Ekukhanyeni Primary School by improving library security for media centre conversion, Ekurhuleni",
+        "description": "EBDA provided assistance to Ekukhanyeni Primary School by improving the security of the school\u2019s library, which will be converted to a media centre.",
+        "location": "Ekukhanyeni Primary School, , Ekurhuleni, "
+      },
+      {
+        "project_name": "Khotso-Caritas Hospice HIV & AIDS programmes, Ekurhuleni",
+        "description": "The Khotso-Caritas Hospice runs HIV & AIDS programmes for people in the area, including prevention and treatment (VCT and ART), palliative care for terminally ill patients, and day care for children infected and affected by HIV & AIDS.",
+        "location": "Khotso-Caritas Hospice, , Ekurhuleni, "
+      },
+      {
+        "project_name": "Refurbishment of facilities at Riverlea Secondary School, Riverlea",
+        "description": "Refurbishment of facilities at the Riverlea Secondary School.",
+        "location": "Riverlea Secondary School, Riverlea, , "
+      },
+      {
+        "project_name": "Library upgrade to media centre at Crestview Primary School, Crestview",
+        "description": "Upgrade of the library to a media centre at Crestview Primary School.",
+        "location": "Crestview Primary School, Crestview, , "
+      },
+      {
+        "project_name": "Installation of foggers to reduce dust at main tipping areas, Blyvoor",
+        "description": "Installation of three foggers at main tipping areas to create an ultra fine mist to attach to dust particles, with a fourth system under investigation.",
+        "location": ", , , "
+      },
+      {
+        "project_name": "Muffling of rock drills and installation of silencers on underground cooling fans, Blyvoor",
+        "description": "All rock drills have been muffled to sound levels of approximately 110dBA and 25 Sulzer rock drills, which are quieter and use less air, are in use. About 70% of all fans installed for underground cooling have been fitted with silencers.",
+        "location": ", , , "
+      }
+    ]
+  },
+  {
+    "company": "DRD",
+    "report_year": "2015",
+    "report_type": "Social",
+    "projects": [
+      {
+        "project_name": "Clean fuel project, Riverlea",
+        "description": "Distribution of 500 gas stoves and 6kg gas canisters to households without electricity.",
+        "location": ", Riverlea, , "
+      },
+      {
+        "project_name": "Vegetation rehabilitation project, Soweto/Geluksdal communities",
+        "description": "Local youth employed for rehabilitation of Crown and Ergo tailings complexes.",
+        "location": ", Soweto, , . , Geluksdal, , "
+      },
+      {
+        "project_name": "Uweso Technogirl, Ergo",
+        "description": "Expose girl learners to workplace and career options through visits to Ergo plant and job shadowing during school breaks.",
+        "location": ""
+      },
+      {
+        "project_name": "Palesa Primary School administration building construction, Soweto",
+        "description": "Construction of an administration building at Palesa Primary School, handed over on 29 May 2015.",
+        "location": "Palesa Primary School, Soweto, , "
+      },
+      {
+        "project_name": "Buhlebemfundo Secondary School security doors installation, Tsakane",
+        "description": "Supplied, constructed and installed wooden and steel security doors at Buhlebemfundo Secondary School.",
+        "location": "Buhlebemfundo Secondary School, Tsakane, , "
+      },
+      {
+        "project_name": "Geluksdal Primary School classroom painting, Geluksdal",
+        "description": "Classrooms painted at Geluksdal Primary School.",
+        "location": "Geluksdal Primary School, Geluksdal, , "
+      },
+      {
+        "project_name": "Funukukhanya Primary School classroom tiling, Geluksdal",
+        "description": "Classrooms tiled at Funukukhanya Primary School.",
+        "location": "Funukukhanya Primary School, Geluksdal, , "
+      },
+      {
+        "project_name": "Enterprise Development Club, Geluksdal",
+        "description": "Developing small business initiatives in the community.",
+        "location": ", Geluksdal, , "
+      },
+      {
+        "project_name": "Crown logistics employee transport co-operative, Ekurhuleni and Johannesburg",
+        "description": "Established employee transport co-operative to provide nightshift transport.",
+        "location": ", Ekurhuleni, , . , Johannesburg, , "
+      },
+      {
+        "project_name": "Maths science and accountancy programme, Ekurhuleni and Johannesburg",
+        "description": "Classes offered at seven schools; quarterly workshops for educators. Learners and educators are given support on challenging components of the syllabus.",
+        "location": ", Ekurhuleni, , . , Johannesburg, , "
+      },
+      {
+        "project_name": "Community ABET-18.2 basic educational support, Ekurhuleni and Johannesburg",
+        "description": "Community members receive basic educational support to qualify for further study, e.g. technical courses.",
+        "location": ", Ekurhuleni, , . , Johannesburg, , "
+      },
+      {
+        "project_name": "N courses (N1 and N2) for community members, Ekurhuleni and Johannesburg",
+        "description": "Community members improve prospects of qualifying for learnerships through N1 and N2 courses.",
+        "location": ", Ekurhuleni, , . , Johannesburg, , "
+      },
+      {
+        "project_name": "Learnerships for community members to become artisans, Ekurhuleni and Johannesburg",
+        "description": "Opportunities for community members to become artisans through learnerships.",
+        "location": ", Ekurhuleni, , . , Johannesburg, , "
+      },
+      {
+        "project_name": "Bursaries for mining-related studies, Gauteng",
+        "description": "Bursaries for study towards mining-related disciplines.",
+        "location": ", , , Gauteng"
+      },
+      {
+        "project_name": "Nigel football sponsorship, Tsakane/Nigel",
+        "description": "Purchase of trophies for football sponsorship.",
+        "location": ", Tsakane, , . , Nigel, , "
+      },
+      {
+        "project_name": "Kasi sports advisor donation, Tsakane",
+        "description": "Donation to local sports magazine.",
+        "location": ", Tsakane, , "
+      },
+      {
+        "project_name": "Ramaphosa Combined School tuition fees donation, Ramaphosa",
+        "description": "Donation towards tuition fees at Ramaphosa Combined School.",
+        "location": "Ramaphosa Combined School, Ramaphosa, , "
+      },
+      {
+        "project_name": "Donation of blankets and children\u2019s tracksuits and jackets, Soweto, Ramaphosa and Tsakane",
+        "description": "Distribution of blankets and children's tracksuits and jackets to communities and charities.",
+        "location": ", Soweto, , . , Ramaphosa, , . , Tsakane, , "
+      },
+      {
+        "project_name": "702 CEO sleep out donation, Boys/Girls Town",
+        "description": "Donation to Boys and Girls Town as part of the 702 CEO sleep out.",
+        "location": ", , , Boys/Girls Town"
+      },
+      {
+        "project_name": "Christian youth job creation project",
+        "description": "Creation of jobs for the youth through a Christian youth job creation project.",
+        "location": ""
+      },
+      {
+        "project_name": "Alexander youth crisis centre bi-annual community event support",
+        "description": "Bi-annual support of community events at Alexander youth crisis centre.",
+        "location": ""
+      },
+      {
+        "project_name": "MES golf day and MES concert contributions, Johannesburg",
+        "description": "Contributions used for Johannesburg street kids and adults.",
+        "location": ", Johannesburg, , "
+      },
+      {
+        "project_name": "Open Door golf day donations to crisis centre",
+        "description": "Donations to crisis centre for counselling services and social support.",
+        "location": ""
+      },
+      {
+        "project_name": "Bed race, Midrand Round table",
+        "description": "Participation in bed race event organised by Midrand Round Table.",
+        "location": ", Midrand, , "
+      },
+      {
+        "project_name": "Entrepreneurship programme with Lepharo, East Rand",
+        "description": "A three-year part-time entrepreneurship programme in partnership with Lepharo, offering basic guidelines for small business start-up and business coaching and support for graduates.",
+        "location": ", , , East Rand. , , , East Rand"
+      },
+      {
+        "project_name": "EBDA Enterprise Club programme, East Rand",
+        "description": "Programme to promote small business development among learners and school leavers, including business basics training, simulations, presentations by local entrepreneurs, outside visits, and two years of coaching and support.",
+        "location": ", , , East Rand. , , , East Rand. , , , East Rand. , , , East Rand. , , , East Rand"
+      },
+      {
+        "project_name": "Maths, science and accounting support at Tsakane Secondary School, East Rand",
+        "description": "Maths, science and accounting support provided to students and teachers at Tsakane Secondary School.",
+        "location": "Tsakane Secondary School, , , East Rand"
+      },
+      {
+        "project_name": "Maths, science and accounting support at Tlakula High School, East Rand",
+        "description": "Maths, science and accounting support provided to students and teachers at Tlakula High School.",
+        "location": "Tlakula High School, , , East Rand"
+      },
+      {
+        "project_name": "Maths, science and accounting support at Langaville Secondary School, East Rand",
+        "description": "Maths, science and accounting support provided to students and teachers at Langaville Secondary School.",
+        "location": "Langaville Secondary School, , , East Rand"
+      },
+      {
+        "project_name": "Accounting support at Nkambula High School (until June 2014), East Rand",
+        "description": "Accounting support provided to students and teachers at Nkambula High School until June 2014.",
+        "location": "Nkambula High School, , , East Rand"
+      },
+      {
+        "project_name": "Maths and science support at Namedi High School, West Rand",
+        "description": "Maths and science support provided to students and teachers at Namedi High School.",
+        "location": "Namedi High School, , , West Rand"
+      },
+      {
+        "project_name": "Maths, science and accounting support at Madibane High School, West Rand",
+        "description": "Maths, science and accounting support provided to students and teachers at Madibane High School.",
+        "location": "Madibane High School, , , West Rand"
+      },
+      {
+        "project_name": "Maths, science and accounting support at Fons Luminus, West Rand",
+        "description": "Maths, science and accounting support provided to students and teachers at Fons Luminus.",
+        "location": "Fons Luminus, , , West Rand"
+      }
+    ]
+  },
+  {
+    "company": "DRD",
+    "report_year": "2018-22",
+    "report_type": "SLPErgo",
+    "projects": [
+      {
+        "project_name": "Broad-Based Livelihoods Programme, East Rand",
+        "description": "A poverty alleviation programme that delivers a person or household the opportunity to maximise participation in the economy by providing access to food security, income generation, and business skills. Includes horticulture for household nutrition, learning groups, support networks, and ongoing mentoring.",
+        "location": ", , Ekurhuleni, East Rand. , , , East Rand"
+      },
+      {
+        "project_name": "Entrepreneurship Programme, East Rand",
+        "description": "A programme to encourage and strengthen multitudes of informal and formal businesses through training, workshops, business tools, and support networks, aiming to improve profitability and sustainability of small businesses.",
+        "location": ", , Ekurhuleni, East Rand. , , , East Rand"
+      },
+      {
+        "project_name": "COJ Broad-Based Personal and Career Development Programme, City of Johannesburg, Region D, F",
+        "description": "A programme to support youth and unemployed young adults in personal and career development, including workshops, career planning, and support networks to improve employability and life skills.",
+        "location": ", , City of Johannesburg, Region D. , , City of Johannesburg, Region F"
+      },
+      {
+        "project_name": "Infrastructure investment for ERGO communities, East Rand",
+        "description": "Provision of equipment or a building construction/upgrade, as needed by a local school or clinic within the ERGO communities, in close cooperation with the Ekurhuleni Municipality.",
+        "location": ", , Ekurhuleni, East Rand"
+      }
+    ]
+  },
+  {
+    "company": "DRD",
+    "report_year": "2019",
+    "report_type": "IR",
+    "projects": [
+      {
+        "project_name": "Crown Complex vegetation programme, Crown Complex",
+        "description": "A programme to establish new side slope vegetation on the Crown tailings dam and irrigate until the vegetation is established and self-sustainable.",
+        "location": ", Langlaagte, City of Johannesburg, Gauteng. , Diepkloof, City of Johannesburg, Gauteng. , Meadowlands, City of Johannesburg, Gauteng. , Orlando West, City of Johannesburg, Gauteng. , Orlando East, City of Johannesburg, Gauteng. , Riverlea, City of Johannesburg, Gauteng. , Pennyville, City of Johannesburg, Gauteng. , Ormonde, City of Johannesburg, Gauteng"
+      },
+      {
+        "project_name": "Vegetation rehabilitation, Soweto and Geluksdal",
+        "description": "Vegetation rehabilitation project providing local youth employment in Soweto and Geluksdal.",
+        "location": ", Soweto, , Gauteng. , Geluksdal, , Gauteng"
+      },
+      {
+        "project_name": "Crown Complex Consortium, Crown Complex",
+        "description": "Local community development initiative around the Crown Complex.",
+        "location": ", Crown Complex, , "
+      },
+      {
+        "project_name": "Broad-based Livelihoods Programme, Tsakane, Soweto and Merafong",
+        "description": "Programme empowering individuals, households, micro-farmers and co-operatives to produce vegetables and crops at home for food security and economic participation, including training on low-cost organic crop production.",
+        "location": ", Tsakane, , Gauteng. , Soweto, , Gauteng. , Merafong, Carletonville, Gauteng"
+      },
+      {
+        "project_name": "Maths, science and accountancy teaching programmes, Supported schools",
+        "description": "Teaching programmes in maths, science and accountancy at supported schools to improve educational outcomes and university entrance rates.",
+        "location": ", , , "
+      },
+      {
+        "project_name": "Bursaries, Community",
+        "description": "Financial support for youth to pursue higher education, including support for students who have graduated and passed professional exams.",
+        "location": ", , , "
+      },
+      {
+        "project_name": "Learnerships, Community",
+        "description": "Provision of artisan training and learnerships for youth, and assistance for community members to complete trade tests and obtain national certificates.",
+        "location": ", , , "
+      },
+      {
+        "project_name": "Wits School of Chemical and Metallurgical Engineering partnership, Braamfontein, Johannesburg",
+        "description": "Partnership with Wits School of Chemical and Metallurgical Engineering to fund metallurgical research, including projects to improve gold recoveries and treat lower grade material.",
+        "location": ", Braamfontein, Johannesburg, Gauteng"
+      },
+      {
+        "project_name": "Corporate social investment programme, Johannesburg and Ekurhuleni municipalities",
+        "description": "Corporate social investment initiatives benefiting communities surrounding operations within the Johannesburg and Ekurhuleni municipalities.",
+        "location": ", , Johannesburg, Gauteng. , , Ekurhuleni, Gauteng"
+      }
+    ]
+  }
+]

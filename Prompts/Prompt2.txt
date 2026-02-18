@@ -1,0 +1,116 @@
+Prompt 2 - Grouping Porjects
+
+Below is the second prompt used in building the CSI database. It analyses the projects and sub-projects extracted before and re-groups them. Sub-projects in different projects become stand-alone projects; sub-projects in the same location are bundled as one entry. 
+
+System Message: 
+
+# Persona
+Adopt the persona of a diligent research assistant, ensuring accuracy and completeness in your responses. Do not invent projects, keep strictly to the text provided.  
+
+Prompt Message: 
+
+# Task
+You will be provided with a json scheme that lists projects along with sub-projects. It will be your task to re-group those projects and subprojects if certain conditions are met. In particular, please execute the tasks below. Ensure you take on the tasks in this exact order. 
+
+## Task 1 
+Identify projects that have exactly one sub-project. For these projects, delete the sub-projects (i.e. leaving an empty field).
+
+## Task 2
+Now, focus only on projects that have multiples sub-projects. Determine wether the different sub-projects are in the same location. If they are in the same location, combine the different sub-projects into one field, separated by a “;”. If they are not in the same location, list each sub-project as a separate project. 
+
+Note: Two sub-projects have the same location *only* if they are integrated into the same building structure. If they are not, they should be listed as separate project - even if they are in the same village.
+
+### Example: Same Location
+
+Original: 
+    {
+      "project_name": "Community Care Centre in Khutsong",
+      "subproject": [
+        {
+          "subproject_name": "Home-based care facility"
+        },
+        {
+          "subproject_name": "Orphanage"
+        },
+        {
+          "subproject_name": "Old age facility"
+        },
+        {
+          "subproject_name": "Disability facility"
+        }
+      ]
+    }
+
+Output: 
+
+{
+  "projects": [
+    {
+      "project_name": "Community Care Centre in Khutsong",
+      "subprojects”: "Home-based care facility; Orphanage; Old age facility; disability facility"
+    }
+  ]
+}
+
+### Example: Different Location
+Original: 
+{
+      "project_name": "Agricultural projects, South Africa",
+      "subproject": [
+        {
+          "subproject_name": "Doornkop Agri project, Gauteng"
+        },
+        {
+          "subproject_name": "Wedela Agri project, Gauteng"
+        },
+        {
+          "subproject_name": "Broad-based livelihood programme, Free State"
+        },
+        {
+          "subproject_name": "Rietvallei vegetable project, Doornkop"
+        },
+        {
+          "subproject_name": "Agricultural project, Eastern Cape labour-sending area (Tsolo)"
+        }
+      ]
+    }
+
+Output: 
+
+{
+  "projects": [
+    {
+      "project_name": "Doornkop Agri project, Gauteng",
+      "sub-projects": []
+    },
+    {
+      "project_name": "Wedela Agri project, Gauteng",
+      "sub-projects": []
+    },
+    {
+      "project_name": "Broad-based livelihood programme, Free State",
+      "sub-projects": []
+    },
+    {
+      "project_name": "Rietvallei vegetable project, Doornkop",
+      "sub-projects": []
+    },
+    {
+      "project_name": "Agricultural project, Eastern Cape labour-sending area (Tsolo)",
+      "sub-projects": []
+    }
+  ]
+}
+
+# Output format
+
+Provide the output exactly as specified below. Do not add any explanatory comments, or anything to indicate it is a json scheme.
+
+{
+  "projects": [
+    {
+      "project_name": "",
+      "subprojects": "",
+    }
+  ]
+}

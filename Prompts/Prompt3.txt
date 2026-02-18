@@ -1,0 +1,127 @@
+Prompt 3 - Extracting Information 
+
+Below is the third and final prompt used in building the dataset. It goes through the cleaned project list extracted before and extracts additional information about each project based on the original pdf extract.
+
+System Message:
+
+# Persona  
+Adopt the persona of a diligent research assistant. Prioritise accuracy and completeness in your responses.  
+Do not invent any information — use only what is explicitly stated in the text provided.
+
+User Message: 
+
+# Task Overview
+
+You will be given:
+- A text extract from a company’s annual report, and
+- A JSON scheme listing projects mentioned in the report.
+
+Your task is to review each project in the JSON scheme and populate 10 additional variables using evidence from the text. These variables are defined below.
+
+# General Remarks
+- Always rely solely on information from the text extract provided.
+- If a variable cannot be filled based on the text, leave it blank — do not guess, do not add “Not applicable” or something similar.
+- Do not change fields that are already populated.
+- Always separate information from different sub-projects by a “.”
+
+# Variable Definitions
+
+## Description
+Briefly describe the project.
+
+## Mine
+Name the mine or mines this project is associated with. This variable may be inferred.
+
+## Partners
+List any partners involved in the planning or implementation of the project. Do not list the company the annual report was written by.
+
+## Years
+List all years the project was active in, i.e. was planned, ongoing and had been completed. Always list at least the year of the report here, unless the text explicitly states that a project was completed and launched in an earlier year. Only list the years themselves, separated by a comma. Do not add comments.
+
+## Investment Amount Company
+Provide the amount of money the company invested in this project. Keep the following form:
+`[Amount (written out in full digits - no space or commas)], [Currency], [Short indication on the time frame and type of the value (e.g. “invested overall,” “invested to date,” “invested this year”, "budgeted for 2018", "budgeted overall")]`
+Only list amounts invested by the company itself. You may find more than one value. In such cases, list all values you encounter, separated by a “;”. Report any amounts you find, even if an indication of the time frame/type of value cannot be found.
+
+## Investment Amount Partners
+Provide the amount of money partners invested in this project, as specified above. Only list amounts made by project partners. List all values you encounter, separated by a “;”. Leave this field empty if no partners contributed.
+
+## Category
+Assign the project to one of the following categories. Where the project only consists of financial support to third parties, add **"(Financial Support)"** after the category. If a project includes multiple sub-projects that differ in category, list the category of each sub-project in the order they appear in the sub-project field, separated by a “.” Choose the most appropriate:
+
+- Alternative Livelihood/Employment Programmes – any programmes that are aimed at generating employment for community members or creating a sustainable living, e.g. through subsistence farming. 
+- Business Hubs – Programmes that aim at supporting community members to start and maintain their own businesses. 
+- Community Training: School – Programmes that aim to improve schooling in local communities, such as math and science classes or initiatives aimed at getting people a high school degree. 
+- Community Training: Post-School – Programmes aimed at enhancing skills outside the traditional school system, including basic skills like reading and writing, but also advanced and technical skills. Apprenticeships also fall in this category. 
+- Community Training: Health – Programmes aimed at improving local knowledge on health. 
+- Bursaries – These are stipends for higher education or secondary education. 
+- Infrastructure: Education – Investments made into education infrastructure, e.g. the building of schools or refurbishing of classrooms. 
+- Infrastructure: Health – Investments made into health infrastructure, e.g. the building of a hospital or clinic. 
+- Infrastructure: Community – Investments made into community infrastructure, e.g. the building of a sports centre, community centre, or creche. 
+- Infrastructure: Services – Investments in service infrastructure, including the provision of water, sanitation, electricity and waste removal. 
+- Infrastructure: Other – Other infrastructure investments, such as building of roads. 
+- Community Relations – Any project aimed at improving mine-community relationships. 
+- Other – Applicable where none of the other categories fit.
+
+
+## Stage
+Infer the current stage of the project. Select only one of the following:
+
+- Planned – if the project is in planning, but has not yet started 
+- Under Construction – if the construction works have started, but have not yet been completed 
+- Completed – if the project has been completed 
+- Operating (do not use for infrastructure projects) - if the project is currently in operation
+- Abandoned  – if the project is not operating anymore and was ended prematurely or unexpectedly 
+
+
+If a project includes multiple sub-projects that differ in stage, list the stages of each sub-project in the order they appear in the sub-project field, separated by a “.”. If the project stage is not mentioned in the text, you may infer it. Only if absolutely no information on stage or status of the project can be found, leave this field blank.
+
+
+## Location
+Specify where the activity took place. Include all four, separated by a “,”:
+
+- The specific building name, if mentioned (e.g., the name of a school, clinic, park, business centre, …)
+- The village or town
+- The municipality
+- The district, provice or region
+
+You may only skip either of the four when you truly cannot find information on them in the text. However, ensure to still list all “,”! For example, if you cannot find the town, municipality or region name, but you know the name of the school, report: “Sonop Primary School, , , ”
+
+If the project is active in two or more distinct locations, add them after the first location. Separate different locations by a “.”
+
+## Location Accuracy
+List the spatial accuracy, i.e. the level of detail associated with the location. This can be either:
+
+- Building
+- Village/Town
+- Municipality
+- District/Province/Region
+
+If the project is active in two or more distinct locations, add the location accuracy for both. Separate different locations by a “.”
+
+## Pages
+List the page number(s) where you found the information. Ensure to list all page numbers where the project was mentioned. List the page number written on the page itself.
+
+# Output Format
+
+Provide the output exactly as specified below. Do not add any explanatory comments, or anything to indicate it is a json scheme.
+
+{
+  "projects": [
+    {
+      "project_name": "",
+      "subprojects": "",
+      "description": "",
+      "mine": "",
+      "partners": "",
+      "stage": "",
+      "years": "",
+      "project_value_company": "",
+      "project_value_partners": "",
+      "category": "",
+      "location": "",
+      "location_accuracy": "",
+      "pages": ""
+    }
+  ]
+}

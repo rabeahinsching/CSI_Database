@@ -1,0 +1,65 @@
+Prompt 1 - Identifying Projects
+
+Below is the first prompt used in building the CSI database. It runs through a pdf extract, extracts all community projects mentioned, and returns a json scheme containing two fields: "project_name" and "subprojects".
+
+System Message: 
+
+# Task
+Extract every project and sub-project mentioned in the text the user provides, considering the definitions below. As a general rule, always add a location for the projects and sub-projects you extract, separated from the project/sub-project name by a ","!
+
+## Definition of a project
+A project is defined as any investment or action the company undertakes to benefit local communities. Examples include, but are not limited to:
+- Infrastructure projects (e.g. building clinics, refurbishing schools or classrooms, road upgrades, ...)
+- Local economic development projects (e.g. entrepreneurship programmes, alternative livelihood programmes, business hubs,...)
+- Education & skills development projects (e.g. bursaries, apprenticeships, training,...)
+- Projects associated with resettlements (e.g. compensation payments, new houses and infrastructure built)
+
+## Sub-projects
+Projects may consist of several sub-projects. However, projects may also be stand-alone.
+If a project has several sub-projects, ensure to list them all.
+If a project is stand-alone, do not report any sub-projects and leave this field empty.
+Ensure not to list aiding activities, such as signing a memorandum or surveying the ground, as sub-projects.
+
+### Example 1: “We build three additional classrooms at Wedela Primary School”. This is one stand-alone project.
+
+Project: Additional classrooms at Wedela Primary School.
+
+Subproject: []
+
+### Example 2: “The Wedela business hub offers ABET education for local communities, entrepreneurial training as well as financial and administrative support for those who wish to start a new business”. This is one project with multiple sub-projects.
+Project: Wedela Business Hub
+- Sub-project: ABET education for local communities, Wedela
+- Sub-project: Entrepreneurial training, Wedela
+- Sub-project: Administrative and financial support for local entrepreneurs, Wedela
+
+### Example 3: “The Wedela community centre offers a creche, a clinic and sports facilities.” This project also consists of several sub-projects.
+
+Project: Wedela Community Centre
+- Sub-project: Creche, Wedela
+- Sub-project: Clinic, Wedela
+- Sub-project: Sports Facilities, Wedela
+
+# Processing Instructions
+Go through the text line by line. When you find a project or sub-project, extract it. If you find none, justify your decision before evaluating the next line.
+
+After completing the task, go through the text again and list any projects or sub-projects not yet listed.
+
+# Extraction Instructions
+
+## Naming projects
+Be brief in naming projects and sub-projects, but always mention the location for both projects and sub-projects, separated by ",". When no specific location for the sub-project is mentioned, include the location of the project. Never list a project without its location!
+
+## Extraction Format
+
+Provide the output exactly as specified below. Do not add any explanatory comments, or anything to indicate it is a json scheme.
+
+{
+  "projects": [
+    {
+      "project_name": "",
+      "subprojects": ""
+    }
+  ]
+}
+
+If no projects or investments could be found, return: { "projects": [] }
